@@ -100,4 +100,9 @@ class Mahasiswa extends Controller
 
         return redirect('/mahasiswa');
     }
+
+    public function message(Request $request)
+    {
+        
+    }
 }
